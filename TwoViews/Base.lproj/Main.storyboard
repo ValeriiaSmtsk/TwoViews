@@ -19,23 +19,16 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3O7-gs-fu7">
                                 <rect key="frame" x="27" y="457" width="360" height="360"/>
                                 <color key="backgroundColor" red="1" green="0.90112541639999999" blue="0.77398375519999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="3O7-gs-fu7" secondAttribute="height" multiplier="1:1" id="e5B-CV-6S9"/>
-                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WZ7-Vo-wFJ">
                                 <rect key="frame" x="27" y="71" width="360" height="360"/>
                                 <color key="backgroundColor" red="0.84741407449999995" green="0.82755943480000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <rect key="contentStretch" x="0.10000000000000001" y="0.0" width="1" height="1"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="WZ7-Vo-wFJ" secondAttribute="height" multiplier="1:1" id="Gmd-1O-f8s"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="WZ7-Vo-wFJ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.869565" id="6Xy-VY-Ha6"/>
                             <constraint firstItem="3O7-gs-fu7" firstAttribute="width" secondItem="WZ7-Vo-wFJ" secondAttribute="width" id="9y6-S4-LMi"/>
                             <constraint firstItem="3O7-gs-fu7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="BX8-eW-vSV"/>
                             <constraint firstItem="3O7-gs-fu7" firstAttribute="height" secondItem="WZ7-Vo-wFJ" secondAttribute="height" id="Qea-Ui-2tF"/>
